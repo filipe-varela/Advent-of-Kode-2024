@@ -12,6 +12,15 @@
 			"installGradle": "true"
 		},
 		"ghcr.io/devcontainers-extra/features/kotlin-sdkman:2": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"fwcd.kotlin",
+				"mathiasfrohlich.Kotlin",
+				"naco-siren.gradle-language"
+			]
+		}
 	}
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
