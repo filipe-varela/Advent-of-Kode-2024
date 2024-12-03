@@ -1,5 +1,10 @@
 plugins {
     kotlin("jvm") version "2.0.21"
+    application
+}
+
+application {
+    mainClass.set("com.aok.vilp.MainKt")  // Fully qualified main class name
 }
 
 group = "com.aok.vilp"
@@ -19,3 +24,8 @@ tasks.test {
 kotlin {
     jvmToolchain(21)
 }
+
+// tasks.register<JavaExec>("run") {
+//     mainClass.set("com.aok.vilp.Main")
+//     classpath = sourceSets["main"].runtimeClasspath
+// }
