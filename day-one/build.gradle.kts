@@ -15,6 +15,7 @@ repositories {
 }
 
 dependencies {
+    implementation(project(":shared-lib"))
     testImplementation(kotlin("test"))
 }
 

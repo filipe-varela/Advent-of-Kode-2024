@@ -13,3 +13,4 @@ plugins {
 
 rootProject.name = "advent-of-kode-2024"
 include("day-one")
+include("shared-lib")
